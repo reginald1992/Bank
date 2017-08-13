@@ -1,4 +1,4 @@
-package Banking1;
+package Banking2;
 
 public class Account {
     private double balance;//账户余额
