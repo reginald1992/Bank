@@ -1,7 +1,7 @@
 package TestBanking;/*
  * This class creates the program to test the banking classes.
- * It creates a new Bank, sets the Customer (with an initial balance),
- * and performs a series of transactions with the Account object.
+ * It creates a new Bank, sets the exer.Customer (with an initial balance),
+ * and performs a series of transactions with the exer.Account object.
  */
 
 import Banking3.*;//代表导入这个包下面所有的类
@@ -29,7 +29,7 @@ public class TestBanking3 {
     System.out.println("Withdraw 400.00: " + account.withdraw(400.00));
 
     // Print out the final account balance
-    System.out.println("Customer [" + customer.getLastName()
+    System.out.println("exer.Customer [" + customer.getLastName()
 		       + ", " + customer.getFirstName()
 		       + "] has a balance of " + account.getBalance());
   }

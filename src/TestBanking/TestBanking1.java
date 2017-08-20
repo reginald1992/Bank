@@ -1,7 +1,7 @@
 /*
  * This class creates the program to test the banking classes.
- * It creates a new Bank, sets the Customer (with an initial balance),
- * and performs a series of transactions with the Account object.
+ * It creates a new Bank, sets the exer.Customer (with an initial balance),
+ * and performs a series of transactions with the exer.Account object.
  */
 package TestBanking;
 import Banking1.Account;
